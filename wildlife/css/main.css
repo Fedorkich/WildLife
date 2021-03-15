@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+   
+}
+
+header{
+    background: url(../img/fox.png);
+    width: 1440px;
+    height: 780px;
+   
+    
+}
+
+.container{
+    width: 1200px;
+    padding-left: 120px; 
+       
+}
+
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    padding-top: 20px; 
+     
+}
+
+.wild{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+
+    color: #f7f7f7;
+    margin-left: 16px;
+    line-height: 60px;
+    
+}
+
+.menu{
+    width: 480px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 460px;
+    
+    
+    }
+.list{
+    padding-inline-start: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}    
+
+.list a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #f7f7f7;
+    line-height: 60px;
+    text-decoration: none;    
+}
+
+ .blog{
+    padding-right: 60px;
+} 
+
+.but{
+    background: none;
+    width: 120px;
+    height: 50px;
+    color: #f7f7f7; 
+    font-size: 23px;
+    font-weight: 400;    
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #CD6326;
+    cursor:pointer;
+    }
+
+.but.sign{
+    margin-top: 5px;
+    line-height: 26px;
+    
+}    
+.but.sign:hover{
+    background: #CD6326;
+}
+.but.sign:active{
+    background: #8F5613;
+}
+.search{
+        width: 23px;
+        height: 23px;
+        padding-right: 64px;
+        padding-left: 64px;
+}
+
+
+.survival{
+    margin-top: 120px;
+    width: 275px;
+    height: 340px;
+}
+
+.surv{
+    font-size: 48px;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 72px;
+    color: #CD6326;
+}
+
+.protect{
+    font-size: 18px;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    color: #f7f7f7;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.but.don{
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    font-size: 23px;
+}  
+.but.don:hover{
+   background:  #E39128;
+}
+.but.don:active{
+    background: #8F5613;
+}
+.container.art{
+    height: 1370px;
+
+}
+
+.articles{
+    width: 1440px;
+    height: 1370px;
+    background: #ccc;
+}
+
+.lat_art{
+    margin: 0 auto;
+    padding-top: 120px;
+    height: 128px;
+    width: 332px;
+    padding-left: 20px;
+    
+}
+
+.latest{
+    padding-top: 120px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 72px;
+    color: #333;
+}
+
+.news{
+    margin-block-start: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 36px;
+    color: #666; 
+    
+}
+
+.Latest_articles{
+    margin-top: 120px;
+    
+    display: flex; 
+    
+}
+
+.arrow{
+    width: 25px;
+    height: 38px;
+    padding-top: 143px;
+       
+}
+.arrow.right{
+    margin-left: 60px;
+}
+
+.animal{
+    width: 300px;
+    height: 360px;
+     margin-left: 60px; 
+    
+}
+
+.animal.deer{
+    background: url(../img/deer.png);
+    margin-left: 64px;
+}
+
+.animal.squirrel{
+    background: url(../img/belka.png);
+}
+.animal.bird{
+    background: url(../img/bird.png);
+}
+.description{
+    padding-top: 247px;
+    
+    align-items: center;
+
+}
+.animal h4{ 
+    text-align: center;
+    margin: 0;  
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    color: #f7f7ff; 
+}
+
+.animal p{ 
+    text-align: center; 
+    margin-top: 10px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 29px;
+    color: #f7f7ff; 
+}
+
+.notification{    
+    margin-top: 240px;
+    padding-left: 266px; 
+     
+       
+}
+
+.notification h3{
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40,5px;
+    color: #333; 
+    margin-left: 86px;
+}
+
+.Get_notified{
+    margin-top: 62px;     
+    display: flex;
+}
+
+.email{
+    width: 525px;
+    height: 57px;
+    background: #ccc;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;    
+    font-family: 'Roboto', sans-serif;
+    line-height: 26,95px;
+    color: #333; 
+    padding-left: 15px;
+    border: 1px solid #666;
+    border-radius: 2px 0px 0px 2px;
+    
+}
+
+.but.notif{
+    width: 120px;
+    height: 61px;
+    background: #CD6326;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;    
+    font-family: 'Roboto', sans-serif;
+    line-height: 26,95px;
+    color: #f7f7f7; 
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+   
+}
+
+.but.notif:hover{
+    background:  #E39128;
+ }
+ .but.notif:active{
+     background: #8F5613;
+ }
+footer{
+    width: 1440px;
+    height: 360px;
+    background: url(../img/footer.png);
+    display: flex;
+    align-items: center;
+}
+
+.log.foo{
+    padding-top: 0;
+}
+
+.container.foot{
+    display: flex;
+    align-items: center;
+    
+}
+
+.list.us{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;    
+    font-family: 'Open sans', sans-serif;
+    line-height: 60px;
+    color: #f7f7f7; 
+}
+
+.navigation{
+    margin-left: 120px;
+
+}
+.list.us li{
+    padding-right: 87px;
+}
+.third{
+  padding-left: 1px;
+}
+
+.networks{
+    display: flex;
+    justify-content: space-between;
+    width: 242px;
+    height: 42px;
+    /* list-style-type: none; */
+    margin-left: 35px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    
+}
+.list.net li{
+    
+    width: 40px;
+    height: 40px;
+    
+}
+.network{    
+    margin-right: 20px; 
+    cursor: pointer;   
+}
+
+.network.facebook{
+     background: url(../img/facebook.svg) no-repeat center;
+     padding-left: 7px;
+}
+.network.instagram{
+    background: url(../img/inst.svg) no-repeat center;
+    padding-left: 9px;
+}
+.network.pr{
+    background: url(../img/p.svg) no-repeat center;
+    padding-left: 1px;
+}
+.network.telegram{
+    background: url(../img/telegram.svg) no-repeat center;
+    padding-left: 13px;
+}
+.list a:hover{
+    color: tomato;
+}
+
+.list.net li:hover{
+    width: 50px;
+    height: 50px;
+    transition: all 0.1s ease;
+}
