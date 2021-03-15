@@ -1,1 +1,1 @@
-https://Fedorkich.github.io/WildLife/
+https://Fedorkich.github.io/WildLife/wildlife
